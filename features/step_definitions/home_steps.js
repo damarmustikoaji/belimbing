@@ -16,14 +16,6 @@ Given('I go to screen the apps', async () => {
   // const activity = await driver.getCurrentActivity();
 });
 
-When('I click the button', async () => {
-  const text1 = await driver.elementById(element.buttonTest);
-  text1.click();
-  await driver.setImplicitWaitTimeout(5000);
-  const btnNp = await driver.elementById(element.button2);
-  btnNp.click();
-});
-
 Then('I see the hello world', async () => {
   const text1 = await driver.elementById(element.my_text_field);
   await text1.type(data.textTest)
@@ -43,5 +35,34 @@ Then('I see the test', async () => {
 When('I click the User Register button', async () => {
   const buttonUserRegister = await driver.elementById(element.startUserRegistration);
   buttonUserRegister.click();
+  await driver.setImplicitWaitTimeout(5000);
+});
+
+When('I click the EN Button', async () => {
+  const buttonTest = await driver.elementById(element.buttonTest);
+  buttonTest.click();
+  await driver.setImplicitWaitTimeout(5000);
+});
+
+Then('I see the confirmation This will end the activity', async () => {
+  const message = await driver.elementById(element.message);
+  await driver.setImplicitWaitTimeout(5000);
+  message.click();
+});
+
+When('I click the No, no button', async () => {
+  const button2 = await driver.elementById(element.button2);
+  button2.click();
+  await driver.setImplicitWaitTimeout(5000);
+});
+
+When('I click the I agree button', async () => {
+  const button1 = await driver.elementById(element.button1);
+  button1.click();
+  await driver.setImplicitWaitTimeout(5000);
+});
+
+Then('I see the EN Button', async () => {
+  await driver.elementById(element.buttonTest).isDisplayed();
   await driver.setImplicitWaitTimeout(5000);
 });

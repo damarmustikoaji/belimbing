@@ -8,8 +8,10 @@ class home_page {
         this.waitingButtonTest = 'io.selendroid.testapp:id/waitingButtonTest',
         this.input_adds_check_box = 'io.selendroid.testapp:id/input_adds_check_box',
         this.visibleButtonTest = 'io.selendroid.testapp:id/visibleButtonTest',
+        this.l10n = 'io.selendroid.testapp:id/l10n',
         this.button1 = 'android:id/button1',
-        this.button2 = 'android:id/button2'
+        this.button2 = 'android:id/button2',
+        this.message = 'android:id/message'
     }
 }
 
