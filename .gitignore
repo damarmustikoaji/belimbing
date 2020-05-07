@@ -1,0 +1,7 @@
+.DS_Store
+.env
+node_modules
+yarn.lock
+features/reports/screenshots/*.png
+features/reports/*.html
+features/reports/*.json

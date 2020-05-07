@@ -1,0 +1,22 @@
+{
+  "name": "appium-wd-cucumberjs",
+  "version": "1.0.0",
+  "description": "boilerplate at mobile apps using appium and cucumber",
+  "main": "index.js",
+  "scripts": {
+    "cucumberjs": "npx cucumber-js features/**/*.feature -f node_modules/cucumber-pretty -f json:features/reports/cucumber_report.json",
+    "test-apps": "npx cucumber-js features/**/*.feature -f json:features/reports/cucumber_report.json",
+    "clean": "rm -rf ./node_modules yarn.lock package-lock.json",
+    "cucumber-reports": "node ./helpers/cucumber_reports.js"
+  },
+  "author": "damar mustiko aji",
+  "license": "ISC",
+  "devDependencies": {
+    "cucumber": "^6.0.5",
+    "cucumber-html-report": "^0.6.5",
+    "cucumber-html-reporter": "^5.2.0",
+    "cucumber-pretty": "^6.0.0",
+    "dotenv": "^8.2.0",
+    "wd": "^1.12.1"
+  }
+}
