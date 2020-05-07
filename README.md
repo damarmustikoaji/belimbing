@@ -116,3 +116,6 @@ npm run cucumber-reports
 - Kendala tidak bisa import `And` dari module cucumber `const { And } = require('cucumber');`
 - Belum ada sample untuk input `data example` di file.feature.
 - CICD-jenkins masih perlu explore bagaimana install appium di server dan setup emulator, kemudian membuat jobs di jenkins untuk running project ini.
+
+## Reference
+- http://appium.io/docs/en/commands/element/find-elements/
