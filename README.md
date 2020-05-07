@@ -97,7 +97,7 @@ https://github.com/cucumber/cucumber/tree/master/tag-expressions
     ...
 
 ## Apps
-`apps/selendroid-test-app.apk`
+- `apps/selendroid-test-app.apk`
 
 ## Helpers
 - `helpers/capabilities.js`
