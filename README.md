@@ -108,7 +108,7 @@ https://github.com/cucumber/cucumber/tree/master/tag-expressions
 ```
 npm run cucumber-reports
 ```
-<img src="helpers/readmi/img/cucumber.png" width="500"/>
+<img src="helpers/readme/cucumber.png" width="500"/>
 
 ## Catatan
 - `await driver.setImplicitWaitTimeout(5000);` atau time sleep tidak bekerja maksimal.
