@@ -1,4 +1,5 @@
 # Automation Testing on Android apps
+Automation testing on android apps using appium, wd, and cucumberjs.
 
 ## Requirement
 - android sdk
