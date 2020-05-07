@@ -63,12 +63,12 @@ Desired capabilities
 {
   "platformName": "android",
   "platformVersion": "8.1.0",
-  "deviceName": "31ebd68a7d94",
+  "deviceName": "31ebd123456",
   "noReset": "True",
   "appPackage": "io.appium.android.apis",
   "appActivity": "io.appium.android.apis.ApiDemos",
   "automationName": "Appium",
-  "app": "/Users/damar/APK/ApiDemos-debug.apk"
+  "app": "/Users/APK/ApiDemos-debug.apk"
 }
 ```
 
